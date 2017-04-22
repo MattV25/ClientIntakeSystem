@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+}
+body, html {
+	height: 100%;
+	min-height: 100%;
+	font-family: 'Arial', sans-serif;
+	position: relative;
+	text-align: center;
+}
+header {
+	width: 100%;
+    min-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    color: white;
+}
+#format{
+    margin: auto;
+    padding: 5px;
+    font-size: 22pt;
+    display: inline-block;
+    color: black;
+    vertical-align: bottom;
+}
+footer, .push  {
+	background: url("http://www.pptbackgrounds.org/uploads/white-line-on-a-blue-powerpoint-backgrounds.jpg")center fixed no-repeat;
+	height: 80px;
+	color: white;
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	overflow: hidden;
+}
+section {
+	padding-top: 90px;
+	min-height:100%;
+	height: auto !important;
+	height:100%;    
+	margin: 0 auto -30px; 
+	background: url("http://www.pptbackgrounds.org/uploads/white-line-on-a-blue-powerpoint-backgrounds.jpg") center fixed no-repeat;
+	color: white;
+}
+.form-control {
+	width:50%;
+	color: gray;
+}
+.regbutton{
+	text-align: left;
+}
+.radio{
+	text-align: left;
+}
+.stateselect{
+	color:black;
+}
+.accheading{
+	display:inline; 
+	align:right;
+	padding-top: 60px;
+}
+.divider1 {
+    width:100%;
+    background: url("http://www.pptbackgrounds.org/uploads/white-line-on-a-blue-powerpoint-backgrounds.jpg") center fixed no-repeat;
+    bottom:0;
+}
+.divider2 {
+    overflow:hidden;
+    height:35px;
+}
+.divider2:after {
+    content:'';
+    display:block;
+    margin:-35px auto 0;
+    width:100%;
+    height:35px;
+    border-radius:125px / 30px;
+    box-shadow:0 0 60px black;
+}
