@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+   "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+   "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<constant name= "struts.devMode" value= "true" />
+	<constant name= "struts.ui.theme" value= "intlops"/>
+	<constant name = "struts.ui.templateDir" value = "template"/>
+	<constant name = "struts.ui.templateSuffix" value = "ftl"/>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="login" class="com.example.model.UserBean" method="execute">
+		 <result name="success">/AccountDetails.jsp</result>
+		 <result name="input">/Login.jsp</result>
+		</action>
+	</package>
+</struts>
